@@ -786,18 +786,14 @@ EOF
 main_menu() {
   clear
 
-  LINK="${ESC}]8;;https://www.tkwangluo.com${ESC}${ESC}\\"
-LINK_PINGIP="${ESC}]8;;https://pingip.cn${ESC}\\${YELLOW}pingip.cn${RESET}${ESC}]8;;${ESC}\\"
-
-
-  echo -e "${red}┌─────────────────────────────────┐${RESET}"
-  echo -e "${red}│${RESET}   ${LINK} | ${LINK} | ${LINK}   ${red}│"
-  echo -e "${red}│${RESET}     ${GREEN}专业的TikTok服务商${RESET}      ${red}│"
-  echo -e "${red}│${RESET}       ${GREEN}提供各国原生住宅IP${RESET}        ${red}│"
-  echo -e "${red}└─────────────────────────────────┘${RESET}"        
-echo -e "==================================="
-echo -e "    ${GREEN}查询IP可以使用:${RESET}  ${LINK_PINGIP}"
-echo -e "==================================="
+echo -e "==========================================================="
+echo -e ""
+echo -e "              ${YELLOW}www.tkwangluo.com${RESET}"
+echo -e ""
+echo -e "      ${GREEN}专 业 T K 服 务 商${RESET}      ${GREEN}账 号 服 务${RESET}      ${GREEN}软 路 由${RESET}"
+echo -e ""
+echo -e "==========================================================="
+echo -e ""
   echo
     echo "1) 安装 VLESS + TCP + Reality (直连选这里)"
   echo "2) 安装 VMESS + WS (软路由选这里)"
