@@ -786,7 +786,7 @@ EOF
 main_menu() {
   clear
 
-  LINK="${ESC}]8;;https://tkwangluo.com${ESC}\\${YELLOW}tkwangluo.com${RESET}${ESC}]8;;${ESC}\\"
+  LINK="${ESC}]8;;https://www.tkwangluo.com${ESC}${ESC}\\"
 LINK_PINGIP="${ESC}]8;;https://pingip.cn${ESC}\\${YELLOW}pingip.cn${RESET}${ESC}]8;;${ESC}\\"
 
 
