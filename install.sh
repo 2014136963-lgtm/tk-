@@ -788,12 +788,11 @@ main_menu() {
 
 echo -e "==========================================================="
 echo -e ""
-echo -e "              ${YELLOW}www.tkwangluo.com${RESET}"
+echo -e "         \033[33m\033[01m w w w . t k w a n g l u o . c o m \033[0m"
 echo -e ""
-echo -e "      ${GREEN}专 业 T K 服 务 商${RESET}      ${GREEN}账 号 服 务${RESET}      ${GREEN}软 路 由${RESET}"
+echo -e "      \033[32m\033[01m专业 TK 服务商\033[0m      \033[32m\033[01m账号服务\033[0m      \033[32m\033[01m软路由\033[0m"
 echo -e ""
 echo -e "==========================================================="
-echo -e ""
   echo
     echo "1) 安装 VLESS + TCP + Reality (直连选这里)"
   echo "2) 安装 VMESS + WS (软路由选这里)"
