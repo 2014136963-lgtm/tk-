@@ -28,6 +28,7 @@ ESC=$(printf '\033')
 YELLOW="${ESC}[33m"
 GREEN="${ESC}[32m"
 RED="${ESC}[31m"
+red="${ESC}[31m" 
 RESET="${ESC}[0m"
 die()    { err "$*"; exit 1; }
 
